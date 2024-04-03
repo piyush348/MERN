@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: border(l&r)+content+padding; */
+}
+
+/* .blank {
+    background-color: saddlebrown;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.how {
+    background-color: cadetblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.are {
+    background-color: purple;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.you {
+    background-color: chartreuse;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.image {
+    margin-top: 50px;
+    text-align: center;
+    /* border: 2px solid yellow; */
+/* padding: 20px;
+    margin-left: 100px;
+     margin-right: 100px; 
+
+}
+
+/* .parent {
+    background-color: aliceblue;
+    font-size: 1rem;
+}
+
+.child {
+    background-color: aliceblue;
+    font-size: 2em;
+    /** 2 x 16
+    width: 20rem;
+} */
+
+/*.btn {
+    display: block;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: blueviolet;
+}
+
+.btn-small {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background-color: brown;
+}
+
+.parent {
+    height: 50vh;
+    width: 50vw;
+    background-color: rgb(15, 120, 211);
+}
+
+.child {
+    background-color: aqua;
+    text-align: center;
+     max-height: 300px;
+    overflow: scroll;
+    padding: 16px 32px;
+    min-height: 200px;
+}
+
+body {
+    padding: 10px 16px;
+}
+
+.overflow {
+    height: 100px;
+    width: 500px;
+    overflow: scroll;
+    background-color: red;
+    /* min-height: 100px; 
+    /* max-height: 100px; 
+}
+
+.parents {
+    ol {
+        li:nth-child(2) {
+            background-color: white;
+        }
+
+        li:nth-child(1) {
+            background-color: rgb(178, 243, 27);
+        }
+
+        li:nth-child(3) {
+            background-color: peru;
+        }
+
+        li:nth-child(4) {
+            background-color: aqua;
+        }
+
+        background-color: blue;
+    }
+
+    ul:first-child {
+        li:nth-child(2) {
+            background-color: white;
+        }
+
+        li:nth-child(1) {
+            background-color: rgb(178, 243, 27);
+        }
+
+        li:nth-child(3) {
+            background-color: peru;
+        }
+
+        li:nth-child(4) {
+            background-color: aqua;
+        }
+
+        background-color: brown;
+    }
+
+    ul:nth-child(5) {
+        li:nth-child(2) {
+            background-color: white;
+        }
+
+        li:nth-child(1) {
+            background-color: rgb(178, 243, 27);
+        }
+
+        li:nth-child(3) {
+            background-color: peru;
+        }
+
+        li:nth-child(4) {
+            background-color: aqua;
+        }
+
+        background-color: rgb(13, 82, 39);
+
+    } */
+/* .flex {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex1 {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex2 {
+    justify-content: space-evenly;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex3 {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: blue;
+    border: 1px solid red;
+    width: 30px;
+    flex-basis: 40px;
+}
+
+.search-box {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.cart {
+    flex-grow: 1;
+} */
+
+.parent {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+}
+
+.child {
+    width: 100px;
+    background-color: blue;
+    border: 1px solid red;
+}
