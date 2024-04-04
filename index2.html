@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<style>
+   button{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    /* animation-delay: -2s; */
+    animation-iteration-count: infinite;
+   }
+   @keyframes example{
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow;left: 500px; top: 0px;}
+    50% {background-color: blue;left: 500px; top: 500px;}
+    75% {background-color: aqua;left: 0px; top: 500px;}
+    100% {background-color: green; left: 0px; top: 0px;}
+   }
+
+/* .button:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+} */
+</style>
+<body>
+    <!-- <div class="parent">
+        <h2>Heading</h2>
+        <h2>This is my first blog</h2>
+    </div> -->
+    <div class="button">
+        <button>Submit</button>
+    </div>
+</body>
+</html>
